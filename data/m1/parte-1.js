@@ -43,6 +43,7 @@ window.AULAS_M1_P1 = [
     id: "M1.1.4",
     titulo: "Números irracionais e reais",
     teoria: [
+      "A raiz quadrada de um número a é o número que, multiplicado por ele mesmo, resulta em a. Por exemplo, a raiz quadrada de 9 é 3, porque 3 × 3 = 9.",
       "Um número irracional não pode ser escrito como fração a/b com a e b inteiros.",
       "Exemplos de irracionais: a raiz quadrada de 2, π e o número de Euler (e).",
       "A expansão decimal de um irracional é infinita e não periódica.",

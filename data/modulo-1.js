@@ -12,7 +12,7 @@ window.AULAS_M1_P0 = [
       "Arredondamento: se o algarismo à direita da casa desejada for de 0 a 4, a casa permanece; se for de 5 a 9, a casa aumenta uma unidade."
     ],
     exemplos: [
-      "3.408 = 3 × 1.000 + 4 × 100 + 0 × 10 + 8 × 1.",
+      "3.408 = 3 milhares + 4 centenas + 0 dezenas + 8 unidades.",
       "Ordenação de 8.742, 8.472, 8.724 e 8.247: 8.247 < 8.472 < 8.724 < 8.742.",
       "6.483 arredondado para a centena: 6.500 (o algarismo das dezenas é 8, então a centena aumenta).",
       "2.475 − 1.289 = 1.186."
@@ -29,7 +29,7 @@ window.AULAS_M1_P0 = [
       { enunciado: "Qual é o resultado de 15.000 − 4.378 + 236?",
         opcoes: ["10.858", "10.862", "10.958", "10.962", "11.058"], correta: 0 },
       { enunciado: "Qual é o menor número natural?",
-        opcoes: ["1", "0", "−1", "10", "100"], correta: 1 },
+        opcoes: ["1", "0", "2", "10", "100"], correta: 1 },
       { enunciado: "Arredondando 3.278 + 4.156 para a centena mais próxima, obtém-se:",
         opcoes: ["7.300", "7.400", "7.500", "7.600", "7.700"], correta: 1,
         correcao: "Corrigido: o gabarito original era C (7.500). Como 3.278 + 4.156 = 7.434, o arredondamento para a centena é 7.400." },
@@ -59,7 +59,7 @@ window.AULAS_M1_P0 = [
       { enunciado: "Qual é o menor número entre −7, −12, 0 e 5?",
         opcoes: ["−7", "−12", "0", "5", "12"], correta: 1 },
       { enunciado: "Qual é o oposto de 18?",
-        opcoes: ["18", "−18", "0", "1/18", "36"], correta: 1 },
+        opcoes: ["18", "−18", "0", "−36", "36"], correta: 1 },
       { enunciado: "Quanto vale |−25|?",
         opcoes: ["−25", "0", "25", "−5", "5"], correta: 2 },
       { enunciado: "Qual é o oposto de −(−7)?",

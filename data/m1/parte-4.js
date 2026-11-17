@@ -72,7 +72,7 @@ window.AULAS_M1_P4 = [
       { enunciado: "Qual é o resultado de 2 × (5 − 2)²?",
         opcoes: ["12", "16", "18", "20", "24"], correta: 2 },
       { enunciado: "Qual é o resultado de 100 ÷ 4 × 2?",
-        opcoes: ["12,5", "25", "50", "100", "200"], correta: 2 },
+        opcoes: ["12", "25", "50", "100", "200"], correta: 2 },
       { enunciado: "Qual é o resultado de 2³ + 3²?",
         opcoes: ["11", "13", "15", "17", "19"], correta: 3 },
       { enunciado: "Qual é o volume de um cubo de aresta 3?",

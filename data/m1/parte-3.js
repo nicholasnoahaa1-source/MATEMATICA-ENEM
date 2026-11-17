@@ -46,7 +46,7 @@ window.AULAS_M1_P3 = [
     teoria: [
       "A multiplicação representa a soma de parcelas iguais.",
       "A divisão reparte uma quantidade em partes iguais.",
-      "Uma divisão é exata quando o resto é zero.",
+      "Uma divisão é exata quando não sobra nada.",
       "A multiplicação é comutativa e associativa.",
       "A divisão por zero não é definida."
     ],

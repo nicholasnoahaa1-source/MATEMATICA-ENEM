@@ -59,3 +59,18 @@ Porcentagem é conteúdo do Módulo 4, e não deve aparecer no Módulo 1. Opera�
 - **M1.6.4:** "10% de 350" trocado por "um décimo de 350".
 - **M1.7.1:** "35%" trocado por "7/20 da capacidade".
 - **M1.7.2 a M1.7.4:** todas as porcentagens trocadas por frações, décimos ou quintos, com as respostas recalculadas.
+
+## Varredura de ordem (segunda revisão do módulo 1)
+
+Conferi conceito por conceito, na ordem do curso, se algo aparecia antes da aula que o ensina.
+
+- **M1.1.1:** a questão de "menor número natural" tinha −1 como alternativa (número negativo antes dos inteiros). Trocado por 2. A expansão de 3.408 usava multiplicação; reescrita com palavras (milhares, centenas, dezenas, unidades).
+- **M1.1.2:** a alternativa 1/18 era fração numa aula de inteiros. Trocada por −36.
+- **M1.1.4:** usava raiz quadrada sem defini-la. Adicionada a definição na própria aula.
+- **M1.2.2:** a palavra "resto" aparecia antes da M1.2.3. Trocada por "não sobra nada".
+- **M1.2.4:** a alternativa 12,5 era um decimal antes da M1.4.3. Trocada por 12.
+
+Pontos que aceitei como estão, e que você pode querer mudar:
+- **M1.1.6:** é a aula que apresenta as operações e suas propriedades, então usa × e ÷ dentro da própria aula.
+- **M1.1.3:** simplificar 18/24 usa 18 = 6 × 3. É fatoração simples, sem MDC.
+- **M1.4.6, questão 9:** pede a raiz quadrada de 3 aproximada. Isso tem o mesmo nível de √2 na M1.1.4, mas o cálculo de raízes em geral é da M1.5.3.
