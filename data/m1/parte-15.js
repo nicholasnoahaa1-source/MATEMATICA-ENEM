@@ -70,7 +70,7 @@ window.AULAS_M1_P15 = [
         opcoes: ["2", "4", "20", "40", "80"], correta: 2 },
       { enunciado: "Para verificar que 84 ÷ 7 = 12, qual operação inversa confirma o resultado?",
         opcoes: ["12 + 7", "12 × 7", "12 − 7", "7 ÷ 12", "84 × 7"], correta: 1 },
-      { enunciado: "Qual é 10% de 350?",
+      { enunciado: "Qual é um décimo de 350?",
         opcoes: ["3", "3,5", "35", "350", "3.500"], correta: 2 },
       { enunciado: "Qual é o resultado de −3 × (−4)?",
         opcoes: ["−12", "−7", "7", "12", "1"], correta: 3 },

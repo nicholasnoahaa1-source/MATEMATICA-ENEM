@@ -14,7 +14,7 @@ window.AULAS_M1_P17 = [
     ],
     exemplos: [
       "Saldo: 125 + 80 − 237 = 205 − 237 = −32. A conta fica com saldo devedor de R$ 32.",
-      "Reservatório: 3/5 − 1/4 = 12/20 − 5/20 = 7/20, ou 35% da capacidade. Erro a evitar: subtrair os denominadores.",
+      "Reservatório: 3/5 − 1/4 = 12/20 − 5/20 = 7/20 da capacidade. Erro a evitar: subtrair os denominadores.",
       "Kits idênticos: 48 cadernos e 60 lápis. MDC(48, 60) = 12. São 12 kits, cada um com 4 cadernos e 5 lápis.",
       "Encontros periódicos: alarmes a cada 18 e 24 minutos. MMC(18, 24) = 72 minutos, isto é, 1 h 12 min. Conferência: 72 ÷ 18 = 4 e 72 ÷ 24 = 3.",
       "Orçamento: 36 caixas com 24 lápis cada são 864 lápis. Divididos entre 27 turmas, dão 32 lápis por turma. Verificação: 27 × 32 = 864."

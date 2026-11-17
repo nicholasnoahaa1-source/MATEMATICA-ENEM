@@ -41,10 +41,9 @@ window.AULAS_M1_P5 = [
   },
   {
     id: "M1.2.6",
-    titulo: "Estimativas, arredondamentos e ordem de grandeza",
+    titulo: "Estimativas e arredondamentos",
     teoria: [
       "Arredondar é trocar um número por outro mais simples e próximo. Observa-se o algarismo seguinte: de 0 a 4, a casa permanece; de 5 a 9, a casa aumenta uma unidade.",
-      "Neste curso, a ordem de grandeza de um número positivo x é o expoente k da notação científica x = a × 10ᵏ, com 1 ≤ a < 10. Por exemplo, 8.500 = 8,5 × 10³, e a ordem de grandeza é 10³.",
       "Estimar é substituir os números por valores arredondados que facilitem o cálculo, para verificar se o resultado é razoável."
     ],
     exemplos: [
@@ -52,7 +51,7 @@ window.AULAS_M1_P5 = [
       "8.249 arredondado para o milhar: 8.000.",
       "498 + 302 estimado: 500 + 300 = 800.",
       "1.998 × 4 estimado: 2.000 × 4 = 8.000.",
-      "A ordem de grandeza de 3.200 é 10³, porque 3.200 = 3,2 × 10³."
+      "3.248 arredondado para a centena: 3.200, porque o algarismo das dezenas é 4."
     ],
     exercicios: [
       { enunciado: "Arredondando 4.562 para a centena, obtém-se:",
@@ -63,8 +62,8 @@ window.AULAS_M1_P5 = [
         opcoes: ["800", "850", "900", "950", "1.000"], correta: 2 },
       { enunciado: "Um valor estimado de 1.998 × 3 é:",
         opcoes: ["5.000", "5.500", "6.000", "6.500", "7.000"], correta: 2 },
-      { enunciado: "Qual é a ordem de grandeza de 8.500?",
-        opcoes: ["10¹", "10²", "10³", "10⁴", "10⁵"], correta: 2 },
+      { enunciado: "Arredondando 8.499 para a centena, obtém-se:",
+        opcoes: ["8.000", "8.400", "8.500", "8.499", "9.000"], correta: 2 },
       { enunciado: "Arredondando 1.999 para a centena, obtém-se:",
         opcoes: ["1.900", "1.950", "2.000", "2.100", "2.500"], correta: 2 },
       { enunciado: "Arredondando 327.486 para o milhar, obtém-se:",
@@ -72,8 +71,8 @@ window.AULAS_M1_P5 = [
         correcao: "Corrigido: o gabarito original era C (328.000). Como 486 é menor que 500, o arredondamento para o milhar é 327.000." },
       { enunciado: "Um valor estimado de 1.250 ÷ 25 é:",
         opcoes: ["40", "45", "50", "55", "60"], correta: 2 },
-      { enunciado: "Qual é a ordem de grandeza de 0,00042?",
-        opcoes: ["10⁻¹", "10⁻²", "10⁻³", "10⁻⁴", "10⁻⁵"], correta: 3 },
+      { enunciado: "Arredondando 4.972 para a dezena, obtém-se:",
+        opcoes: ["4.960", "4.970", "4.980", "4.900", "5.000"], correta: 1 },
       { enunciado: "Um valor estimado de 1.998 × 30 é:",
         opcoes: ["50.000", "55.000", "60.000", "65.000", "70.000"], correta: 2 }
     ]

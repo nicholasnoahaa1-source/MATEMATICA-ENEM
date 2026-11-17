@@ -46,3 +46,16 @@ Lista do que foi corrigido em relação à transcrição original. Atualizada a 
 - **M1.4.5 repete a M1.1.4:** o conteúdo e os exercícios são quase iguais. Mantive as duas aulas como estão no original.
 - **Volume do cubo de aresta 3** aparece como exercício em M1.2.4, M1.5.6 e M1.6.1. Não é erro, só repetição entre aulas.
 - **Metadados de cada aula** (habilidades, níveis, "interações planejadas", "avaliação de progressão") não foram incluídos no site. São orientações para o autor, não conteúdo para o aluno.
+
+## Ordem do conteúdo (revisão após feedback)
+
+Porcentagem é conteúdo do Módulo 4, e não deve aparecer no Módulo 1. Operações e frações também precisam aparecer só depois de ensinadas.
+
+- **M1.1.1:** removidas multiplicação e divisão (1.250 ÷ 25), porcentagem (42% de 3.500) e a pergunta sobre naturais e inteiros, que só é ensinada na M1.1.2. Agora as questões usam sucessor, maior número de quatro algarismos e menor natural.
+- **M1.1.2:** removidas somas e subtrações de inteiros (−6 + 9, −250 + 90, subsolo + andares, variação de temperatura), que são ensinadas na M1.2.1. Ficam perguntas sobre oposto, módulo e ordem na reta.
+- **M1.1.3:** removidas operações com frações (1/4 + 1/3, 2/3 × 3/5, 1/2 + 1/4, 3/5 de 40, 5/6 − 1/3). Ficam conversão, comparação e equivalência, que são o assunto da aula.
+- **M1.2.6:** removidas a notação científica e a ordem de grandeza com potências de 10, que são ensinadas na M1.5.4 e na M1.5.5. Trocadas por arredondamento (centena e dezena).
+- **M1.5.6:** juros compostos trocados por crescimento que dobra ou triplica (colônia de bactérias), que usa as mesmas potências.
+- **M1.6.4:** "10% de 350" trocado por "um décimo de 350".
+- **M1.7.1:** "35%" trocado por "7/20 da capacidade".
+- **M1.7.2 a M1.7.4:** todas as porcentagens trocadas por frações, décimos ou quintos, com as respostas recalculadas.

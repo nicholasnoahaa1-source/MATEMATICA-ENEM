@@ -7,14 +7,14 @@ window.AULAS_M1_P1 = [
       "Um número racional é uma fração a/b com a e b inteiros e b diferente de zero.",
       "Todo decimal finito é racional, e as dízimas periódicas também são racionais.",
       "Para comparar duas frações, iguale os denominadores ou converta ambas para decimal.",
-      "Simplificar uma fração é dividir numerador e denominador pelo mesmo fator."
+      "Simplificar uma fração é escrever uma fração equivalente com números menores, mantendo o mesmo valor."
     ],
     exemplos: [
       "3/4 = 0,75.",
-      "Simplificando 18/24: dividindo por 6, obtém-se 3/4.",
+      "Simplificando 18/24: obtém-se 3/4, porque 18 = 6 × 3 e 24 = 6 × 4.",
       "2/5 = 0,4, que é menor que 0,45. Logo, 2/5 < 0,45.",
-      "1/4 + 1/3 = 3/12 + 4/12 = 7/12.",
-      "2/3 × 3/5 = 6/15 = 2/5."
+      "1/2 = 0,5 e 1/4 = 0,25.",
+      "0,125 = 125/1.000 = 1/8."
     ],
     exercicios: [
       { enunciado: "Qual é a representação decimal de 7/10?",
@@ -23,28 +23,27 @@ window.AULAS_M1_P1 = [
         opcoes: ["1/2", "2/3", "3/4", "4/5", "5/6"], correta: 1 },
       { enunciado: "Qual é maior: 3/5 ou 0,58?",
         opcoes: ["3/5", "0,58", "São iguais", "Não é possível comparar", "Depende"], correta: 0 },
-      { enunciado: "Qual é o resultado de 1/2 + 1/4?",
-        opcoes: ["2/6", "3/4", "1/6", "1/8", "2/8"], correta: 1 },
-      { enunciado: "Qual é o dobro de 3/4?",
-        opcoes: ["1", "1 e 1/4", "1 e 1/2", "2", "2 e 1/2"], correta: 2 },
-      { enunciado: "Qual é o resultado de 2/3 × 9?",
-        opcoes: ["3", "6", "9", "12", "18"], correta: 1 },
-      { enunciado: "Qual fração é igual a 0,35?",
-        opcoes: ["7/20", "7/25", "35/1000", "3/5", "1/3"], correta: 0 },
-      { enunciado: "Quanto é 3/5 de 40?",
-        opcoes: ["18", "20", "24", "25", "30"], correta: 2 },
-      { enunciado: "Qual é o resultado de 5/6 − 1/3?",
-        opcoes: ["1/2", "2/3", "1/3", "1/6", "1/4"], correta: 0,
-        correcao: "Corrigido: a alternativa E original (3/6) era equivalente a 1/2, a resposta certa. Substituída por 1/4." },
-      { enunciado: "Quantos mililitros há em 0,75 litro?",
-        opcoes: ["7,5", "75", "750", "7.500", "75.000"], correta: 2 }
+      { enunciado: "Qual é maior: 1/2 ou 1/4?",
+        opcoes: ["1/2", "1/4", "São iguais", "Não é possível comparar", "Depende"], correta: 0 },
+      { enunciado: "Qual é a representação decimal de 3/4?",
+        opcoes: ["0,25", "0,34", "0,5", "0,75", "1"], correta: 3 },
+      { enunciado: "Qual fração é equivalente a 6/9?",
+        opcoes: ["2/3", "3/4", "1/2", "6/7", "9/6"], correta: 0 },
+      { enunciado: "Qual é a fração equivalente a 0,35?",
+        opcoes: ["7/20", "7/25", "35/1.000", "3/5", "1/3"], correta: 0 },
+      { enunciado: "Qual fração representa 24 de um total de 40?",
+        opcoes: ["2/5", "3/5", "1/2", "3/4", "5/8"], correta: 1 },
+      { enunciado: "Qual fração é menor: 1/3 ou 1/2?",
+        opcoes: ["1/3", "1/2", "São iguais", "Não é possível comparar", "Depende"], correta: 0 },
+      { enunciado: "Qual decimal está entre 0,7 e 0,8?",
+        opcoes: ["0,65", "0,72", "0,9", "0,6", "0,5"], correta: 1 }
     ]
   },
   {
     id: "M1.1.4",
     titulo: "Números irracionais e reais",
     teoria: [
-      "Um número irracional não pode ser escrito como a/b com a e b inteiros.",
+      "Um número irracional não pode ser escrito como fração a/b com a e b inteiros.",
       "Exemplos de irracionais: a raiz quadrada de 2, π e o número de Euler (e).",
       "A expansão decimal de um irracional é infinita e não periódica.",
       "O conjunto dos números reais reúne os racionais e os irracionais.",

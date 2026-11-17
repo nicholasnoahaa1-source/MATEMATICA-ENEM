@@ -28,17 +28,17 @@ window.AULAS_M1_P0 = [
         opcoes: ["19.263", "20.263", "20.363", "21.263", "19.163"], correta: 1 },
       { enunciado: "Qual é o resultado de 15.000 − 4.378 + 236?",
         opcoes: ["10.858", "10.862", "10.958", "10.962", "11.058"], correta: 0 },
-      { enunciado: "Todo número natural é também um número inteiro?",
-        opcoes: ["Sim", "Não", "Somente alguns", "Nenhum", "Depende"], correta: 0 },
+      { enunciado: "Qual é o menor número natural?",
+        opcoes: ["1", "0", "−1", "10", "100"], correta: 1 },
       { enunciado: "Arredondando 3.278 + 4.156 para a centena mais próxima, obtém-se:",
         opcoes: ["7.300", "7.400", "7.500", "7.600", "7.700"], correta: 1,
         correcao: "Corrigido: o gabarito original era C (7.500). Como 3.278 + 4.156 = 7.434, o arredondamento para a centena é 7.400." },
       { enunciado: "Qual é o maior número que se pode formar com os algarismos 2, 5, 8 e 9, usando cada um uma única vez?",
         opcoes: ["2.589", "5.892", "8.952", "9.852", "9.582"], correta: 3 },
-      { enunciado: "Qual é o resultado de 1.250 ÷ 25?",
-        opcoes: ["40", "45", "50", "55", "60"], correta: 2 },
-      { enunciado: "Qual é 42% de 3.500?",
-        opcoes: ["1.400", "1.450", "1.470", "1.500", "1.540"], correta: 2 }
+      { enunciado: "Qual é o próximo número natural depois de 1.249?",
+        opcoes: ["1.248", "1.249", "1.250", "1.251", "1.259"], correta: 2 },
+      { enunciado: "Qual é o maior número natural de quatro algarismos?",
+        opcoes: ["1.000", "9.000", "9.999", "999", "9.990"], correta: 2 }
     ]
   },
   {
@@ -53,7 +53,7 @@ window.AULAS_M1_P0 = [
     exemplos: [
       "Ordenação de −3, 5, −8, 0 e 2: −8 < −3 < 0 < 2 < 5.",
       "O oposto de −12 é 12. |−9| = 9 e |4| = 4.",
-      "Variação de temperatura de 3 para −4 graus: −4 − 3 = −7 graus."
+      "Entre −4 e 3 estão os inteiros −3, −2, −1, 0, 1 e 2."
     ],
     exercicios: [
       { enunciado: "Qual é o menor número entre −7, −12, 0 e 5?",
@@ -62,20 +62,20 @@ window.AULAS_M1_P0 = [
         opcoes: ["18", "−18", "0", "1/18", "36"], correta: 1 },
       { enunciado: "Quanto vale |−25|?",
         opcoes: ["−25", "0", "25", "−5", "5"], correta: 2 },
-      { enunciado: "Qual é o resultado de −6 + 9?",
-        opcoes: ["−15", "−3", "3", "15", "9"], correta: 2 },
+      { enunciado: "Qual é o oposto de −(−7)?",
+        opcoes: ["−7", "0", "7", "−14", "14"], correta: 2 },
       { enunciado: "Qual lista está em ordem crescente?",
         opcoes: ["4, 0, −2, −7", "−7, −2, 0, 4", "−2, −7, 0, 4", "0, −7, −2, 4", "4, −7, −2, 0"], correta: 1 },
-      { enunciado: "Qual é o resultado de −250 + 90?",
-        opcoes: ["−340", "−160", "160", "340", "−90"], correta: 1 },
+      { enunciado: "Qual número inteiro tem módulo 250 e é negativo?",
+        opcoes: ["250", "−250", "0", "25", "−52"], correta: 1 },
       { enunciado: "Qual é o resultado de |−8| + |3|?",
         opcoes: ["5", "−5", "11", "−11", "24"], correta: 2 },
       { enunciado: "Qual é o maior número entre −100, −50, −75 e −25?",
         opcoes: ["−100", "−75", "−50", "−25", "0"], correta: 3 },
-      { enunciado: "Subsolo 3 + 7 andares =",
-        opcoes: ["Subsolo 10", "Subsolo 4", "Andar 4", "Andar 7", "Andar 10"], correta: 2 },
-      { enunciado: "−12 para −3 graus. Qual é a variação?",
-        opcoes: ["−15", "−9", "9", "15", "0"], correta: 2 }
+      { enunciado: "Na reta numérica, qual inteiro está entre −4 e −2?",
+        opcoes: ["−5", "−4", "−3", "−2", "−1"], correta: 2 },
+      { enunciado: "Qual destes números está mais próximo de zero?",
+        opcoes: ["−8", "−3", "5", "−12", "−30"], correta: 1 }
     ]
   }
 ];

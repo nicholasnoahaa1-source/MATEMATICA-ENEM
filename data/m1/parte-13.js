@@ -45,13 +45,13 @@ window.AULAS_M1_P13 = [
     teoria: [
       "Potências aparecem no cálculo de áreas (lado × lado) e volumes (aresta × aresta × aresta).",
       "Raízes aparecem para descobrir a medida do lado a partir da área.",
-      "Juros compostos usam potências: um valor inicial cresce por um fator (1 + i) a cada período, e o montante após n períodos é M = C × (1 + i)ⁿ."
+      "Crescimentos que se repetem a cada período usam potências. Se uma quantidade dobra a cada hora, após n horas ela vale 2ⁿ vezes o valor inicial."
     ],
     exemplos: [
       "Área de um quadrado de lado 5: 5² = 25.",
       "Volume de um cubo de aresta 3: 3³ = 27.",
       "Raiz quadrada de 144 = 12, porque 12² = 144.",
-      "R$ 1.000 a 10% ao ano por 2 anos: 1.000 × 1,1² = 1.210.",
+      "Uma colônia de 1.000 bactérias dobra a cada hora. Após 2 horas: 1.000 × 2² = 4.000.",
       "0,00042 em notação científica: 4,2 × 10⁻⁴."
     ],
     exercicios: [
@@ -61,8 +61,8 @@ window.AULAS_M1_P13 = [
         opcoes: ["9", "18", "27", "36", "81"], correta: 2 },
       { enunciado: "Qual é a raiz quadrada de 144?",
         opcoes: ["10", "11", "12", "13", "14"], correta: 2 },
-      { enunciado: "Um capital de R$ 1.000 rende 10% ao ano, com juros compostos, por 2 anos. Qual é o montante?",
-        opcoes: ["1.100", "1.200", "1.210", "1.220", "1.250"], correta: 2 },
+      { enunciado: "Uma colônia de 1.000 bactérias dobra a cada hora. Quantas bactérias há após 2 horas?",
+        opcoes: ["2.000", "3.000", "4.000", "5.000", "8.000"], correta: 2 },
       { enunciado: "Qual é a notação científica de 0,00042?",
         opcoes: ["4,2 × 10⁻⁴", "4,2 × 10⁻³", "4,8 × 10⁻⁴", "2,4 × 10⁻⁴", "4,2 × 10⁴"], correta: 0,
         correcao: "Corrigido: as alternativas C (42 × 10⁻⁵) e D (0,42 × 10⁻³) tinham o mesmo valor da resposta certa. Foram substituídas por 4,8 × 10⁻⁴ e 2,4 × 10⁻⁴." },
@@ -72,8 +72,8 @@ window.AULAS_M1_P13 = [
         opcoes: ["16", "32", "48", "64", "80"], correta: 3 },
       { enunciado: "Qual é a raiz quadrada de 225?",
         opcoes: ["10", "12", "15", "18", "20"], correta: 2 },
-      { enunciado: "Um capital de R$ 1.000 rende 10% ao ano, com juros compostos, por 3 anos. Qual é o montante?",
-        opcoes: ["1.100", "1.210", "1.331", "1.400", "1.500"], correta: 2 },
+      { enunciado: "Uma colônia de 1.000 bactérias triplica a cada dia. Quantas bactérias há após 3 dias?",
+        opcoes: ["3.000", "9.000", "27.000", "30.000", "81.000"], correta: 2 },
       { enunciado: "Qual é a notação científica de 0,0000075?",
         opcoes: ["7,5 × 10⁻⁶", "7,5 × 10⁻⁵", "7,5 × 10⁻⁸", "5,7 × 10⁻⁶", "7,5 × 10⁶"], correta: 0,
         correcao: "Corrigido: as alternativas C (75 × 10⁻⁷) e D (0,75 × 10⁻⁵) tinham o mesmo valor da resposta certa. Foram substituídas por 7,5 × 10⁻⁸ e 5,7 × 10⁻⁶." }
