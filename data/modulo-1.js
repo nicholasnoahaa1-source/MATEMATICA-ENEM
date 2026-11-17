@@ -1,8 +1,7 @@
 // Módulo 1, Números e operações.
 // Conteúdo extraído da transcrição integral. Revisado aula a aula.
 // Correções registradas em data/CORRECOES.md.
-window.CURSO_AULAS = window.CURSO_AULAS || {};
-window.CURSO_AULAS[1] = [
+window.AULAS_M1_P0 = [
   {
     id: "M1.1.1",
     titulo: "Números naturais e sistema decimal",
