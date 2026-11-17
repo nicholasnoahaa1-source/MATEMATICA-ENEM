@@ -74,3 +74,13 @@ Pontos que aceitei como estão, e que você pode querer mudar:
 - **M1.1.6:** é a aula que apresenta as operações e suas propriedades, então usa × e ÷ dentro da própria aula.
 - **M1.1.3:** simplificar 18/24 usa 18 = 6 × 3. É fatoração simples, sem MDC.
 - **M1.4.6, questão 9:** pede a raiz quadrada de 3 aproximada. Isso tem o mesmo nível de √2 na M1.1.4, mas o cálculo de raízes em geral é da M1.5.3.
+
+## Módulo 2 (completo: aulas M2.1.1 a M2.6.4)
+
+- **31 aulas e 186 exercícios**, com teoria, cinco exemplos e exercícios de múltipla escolha, sem gabarito à vista e sem dicas.
+- **Conferência:** refiz as contas de todos os exemplos e exercícios do módulo. Não encontrei gabarito errado.
+- **Exercícios abertos transformados em múltipla escolha:** a maioria das aulas do módulo 2 tinha perguntas abertas no original. Criei alternativas com uma única resposta certa, sem repetir valores.
+- **Erro frequente** (dicas) não foi incluído nos exercícios, por causa da regra de não mostrar dica.
+- **Porcentagem removida** de M2.3.1 ("42,2%", trocado por "0,422") e de M2.6.1 ("75%"), porque porcentagem é conteúdo do módulo 4.
+- **Metadados:** a errata do arquivo original aponta que M2.5.1 tem unidade indicada como 2.4. A aula está na unidade 2.5 no site.
+- **Ordem das alternativas:** o site embaralha as alternativas de cada questão, de forma fixa (sempre a mesma ordem para a mesma questão). Motivo: no módulo 1, a alternativa C era a resposta certa em 154 das 378 questões, o que entregava o gabarito pela posição.

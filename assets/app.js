@@ -157,6 +157,20 @@
     return sec;
   }
 
+  // Ordem fixa e pseudoaleatória das alternativas, derivada do enunciado.
+  // Assim, a resposta certa não fica sempre na mesma posição.
+  function ordemOpcoes(q) {
+    var seed = 0;
+    for (var c = 0; c < q.enunciado.length; c++) seed = (seed * 31 + q.enunciado.charCodeAt(c)) >>> 0;
+    var ordem = q.opcoes.map(function (_, i) { return i; });
+    for (var i = ordem.length - 1; i > 0; i--) {
+      seed = (seed * 1103515245 + 12345) >>> 0;
+      var j = seed % (i + 1);
+      var tmp = ordem[i]; ordem[i] = ordem[j]; ordem[j] = tmp;
+    }
+    return ordem;
+  }
+
   // Exercício sem gabarito e sem dica: a pessoa só vê se acertou ou errou.
   function montarExercicio(q, indice, sessao, placar) {
     var box = el("article", "exercicio");
@@ -167,7 +181,8 @@
     var feedback = el("p", "feedback");
     feedback.setAttribute("aria-live", "polite");
 
-    q.opcoes.forEach(function (texto, i) {
+    ordemOpcoes(q).forEach(function (original, i) {
+      var texto = q.opcoes[original];
       var li = el("li");
       var b = el("button", "opcao");
       b.type = "button";
@@ -177,7 +192,7 @@
         if (botoes[0].disabled) return;
         botoes.forEach(function (x) { x.disabled = true; });
         b.classList.add("escolhida");
-        var acertou = i === q.correta;
+        var acertou = original === q.correta;
         if (acertou) sessao.certas++; else sessao.erradas++;
         feedback.textContent = acertou ? "Você acertou." : "Você errou.";
         feedback.className = "feedback " + (acertou ? "certo" : "errado");
