@@ -3,189 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Matemática para o ENEM</title>
-  <meta name="description" content="Tópicos de matemática cobrados no ENEM, com questões para treinar e resoluções comentadas.">
+  <title>Matemática ENEM</title>
+  <meta name="description" content="Curso de matemática para o ENEM: aulas, animações e exercícios interativos.">
+  <meta name="robots" content="noindex, nofollow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,700&family=IBM+Plex+Mono:wght@400;500&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,700&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 
-  <header class="topo">
-    <a class="marca" href="#inicio">Matemática <span>ENEM</span></a>
-    <nav aria-label="Seções">
-      <a href="#topicos">Tópicos</a>
-      <a href="#treino">Treino</a>
-      <a href="#metodo">Método</a>
-    </nav>
-  </header>
+  <div class="app">
+    <aside class="lateral" aria-label="Módulos do curso">
+      <p class="marca"><a href="#inicio">Matemática <em>ENEM</em></a></p>
+      <nav>
+        <ol class="lista-modulos" id="lista-modulos"></ol>
+      </nav>
+    </aside>
 
-  <main id="inicio">
+    <main class="conteudo" id="conteudo" tabindex="-1"></main>
+  </div>
 
-    <section class="abertura">
-      <div class="abertura-texto">
-        <p class="etiqueta">Caderno de estudo</p>
-        <h1>Matemática que o ENEM <em>realmente</em> cobra.</h1>
-        <p class="lede">
-          Os cinco eixos da prova, os conteúdos de cada um e questões para testar o que você sabe.
-          Cada resposta vem com a resolução completa, para você ver onde errou.
-        </p>
-        <a class="link-seta" href="#treino">Começar pelo treino</a>
-      </div>
-
-      <figure class="folha" aria-label="Questão de exemplo">
-        <figcaption>Questão de abertura</figcaption>
-        <p class="enunciado">
-          Um produto custava R$&nbsp;200,00. Sofreu um desconto de 15% e, em seguida, um acréscimo de 10%
-          sobre o novo preço. Qual é o preço final?
-        </p>
-        <ol class="alternativas">
-          <li>R$&nbsp;185,00</li>
-          <li class="certa">R$&nbsp;187,00</li>
-          <li>R$&nbsp;190,00</li>
-          <li>R$&nbsp;170,00</li>
-          <li>R$&nbsp;192,00</li>
-        </ol>
-        <p class="resolucao-curta">
-          <span class="mono">200 × 0,85 = 170</span> &rarr; <span class="mono">170 × 1,10 = 187</span>.
-          O acréscimo incide sobre o valor já descontado, não sobre os R$&nbsp;200,00.
-        </p>
-      </figure>
-    </section>
-
-    <section id="topicos" class="topicos">
-      <header class="secao-cabeca">
-        <p class="etiqueta">Matriz de referência</p>
-        <h2>Os cinco eixos</h2>
-        <p>A prova de matemática se organiza em cinco áreas. Estes são os conteúdos mais recorrentes em cada uma.</p>
-      </header>
-
-      <ol class="lista-eixos">
-        <li class="eixo">
-          <span class="num mono">01</span>
-          <div>
-            <h3>Números e operações</h3>
-            <p>Leitura e interpretação de situações com números, proporções e cálculo mental.</p>
-          </div>
-          <ul class="subtopicos">
-            <li>Porcentagem e juros</li>
-            <li>Razão e proporção</li>
-            <li>Regra de três</li>
-            <li>Notação científica</li>
-          </ul>
-        </li>
-        <li class="eixo">
-          <span class="num mono">02</span>
-          <div>
-            <h3>Álgebra e funções</h3>
-            <p>Modelagem de situações reais com equações, inequações e gráficos.</p>
-          </div>
-          <ul class="subtopicos">
-            <li>Função do 1º e 2º grau</li>
-            <li>Função exponencial e logarítmica</li>
-            <li>Progressões aritmética e geométrica</li>
-            <li>Sistemas lineares</li>
-          </ul>
-        </li>
-        <li class="eixo">
-          <span class="num mono">03</span>
-          <div>
-            <h3>Geometria e medidas</h3>
-            <p>Figuras planas e espaciais, áreas, volumes e semelhança de triângulos.</p>
-          </div>
-          <ul class="subtopicos">
-            <li>Área e perímetro</li>
-            <li>Volume de sólidos</li>
-            <li>Teorema de Pitágoras</li>
-            <li>Escalas e unidades de medida</li>
-          </ul>
-        </li>
-        <li class="eixo">
-          <span class="num mono">04</span>
-          <div>
-            <h3>Geometria analítica e trigonometria</h3>
-            <p>Coordenadas, retas, circunferências e relações nos triângulos.</p>
-          </div>
-          <ul class="subtopicos">
-            <li>Equação da reta</li>
-            <li>Distância entre pontos</li>
-            <li>Seno, cosseno e tangente</li>
-            <li>Ciclo trigonométrico</li>
-          </ul>
-        </li>
-        <li class="eixo">
-          <span class="num mono">05</span>
-          <div>
-            <h3>Estatística e probabilidade</h3>
-            <p>Leitura de tabelas e gráficos, medidas de tendência e contagem de possibilidades.</p>
-          </div>
-          <ul class="subtopicos">
-            <li>Média, mediana e moda</li>
-            <li>Análise de gráficos</li>
-            <li>Probabilidade simples</li>
-            <li>Análise combinatória</li>
-          </ul>
-        </li>
-      </ol>
-    </section>
-
-    <section id="treino" class="treino">
-      <header class="secao-cabeca">
-        <p class="etiqueta">Treino</p>
-        <h2>Três questões com resolução</h2>
-        <p>Escolha uma alternativa para conferir. A resolução aparece logo depois.</p>
-      </header>
-
-      <div class="exercicio" id="exercicio">
-        <div class="exercicio-topo">
-          <span class="mono" id="contador">1 / 3</span>
-          <span class="eixo-nome" id="eixo-nome"></span>
-        </div>
-
-        <p class="enunciado" id="enunciado"></p>
-        <ol class="opcoes" id="opcoes"></ol>
-
-        <div class="feedback" id="feedback" aria-live="polite" hidden>
-          <p class="feedback-titulo" id="feedback-titulo"></p>
-          <p id="resolucao"></p>
-        </div>
-
-        <div class="controles">
-          <button type="button" id="anterior" class="botao-texto">&larr; Anterior</button>
-          <button type="button" id="proxima" class="botao-texto">Próxima &rarr;</button>
-        </div>
-      </div>
-    </section>
-
-    <section id="metodo" class="metodo">
-      <header class="secao-cabeca">
-        <p class="etiqueta">Método</p>
-        <h2>Como usar este caderno</h2>
-      </header>
-
-      <ol class="passos">
-        <li>
-          <span class="mono">a.</span>
-          <p><strong>Tente antes de olhar.</strong> Resolva a questão no papel. Olhar a resposta cedo demais tira a parte que mais ensina.</p>
-        </li>
-        <li>
-          <span class="mono">b.</span>
-          <p><strong>Compare o caminho, não só a letra.</strong> Acertar pelo chute não mostra que você domina o conteúdo.</p>
-        </li>
-        <li>
-          <span class="mono">c.</span>
-          <p><strong>Anote o erro pelo tipo.</strong> Conta errada, leitura do enunciado ou conteúdo que falta são problemas diferentes, com soluções diferentes.</p>
-        </li>
-      </ol>
-    </section>
-
-  </main>
-
-  <footer class="rodape">
-    <p>Material de estudo independente. Não tem vínculo com o Inep, responsável pelo ENEM.</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <script src="data/modulos.js"></script>
+  <script src="data/modulo-1.js"></script>
+  <script src="assets/app.js"></script>
 </body>
 </html>
